@@ -84,6 +84,7 @@ ssize_t persistent_ram_ecc_string(struct persistent_ram_zone *prz,
 #ifdef OPLUS_FEATURE_DUMPDEVICE
 void ramoops_console_write_buf(const char *buf, size_t size);
 #endif /* OPLUS_FEATURE_DUMPDEVICE */
+
 /*
  * Ramoops platform data
  * @mem_size	memory size for ramoops
